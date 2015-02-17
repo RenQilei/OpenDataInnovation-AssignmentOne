@@ -1,0 +1,14 @@
+@font-face {
+      font-family: "inconsolata";
+      src: "assets/fonts/Inconsolata.otf";
+}
+
+body {
+	font-family:  "inconsolata";
+    background-color: #27292C;
+    color: #fff;
+}
+
+#main {
+    margin-top: 70px;
+}
