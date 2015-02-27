@@ -5,10 +5,65 @@
 
 body {
 	font-family:  "inconsolata";
-    background-color: #27292C;
-    color: #fff;
+}
+
+@media (max-width: 767px) {
+
+}
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+@media (min-width: 1200px) {
+#home p {
+	text-align: justify;
+	font-size: 24px;
+}
+
+#navigation {
+	background-color: #ccc;
+	height: 60px;
+}
+
+#navigation .active {
+	border-bottom: 9px solid #333;
+}
+
+.title {
+	top: 80px;
+	position: relative;
+	margin-bottom: 20px;
+	border-left: 5px solid #333;
+	font-size: 24px;
+}
+
+.section-main {
+	top: 80px;
+	position: relative;
+	margin-bottom: 20px;
+}
+/* end of min-width: 1200px; */
 }
 
 #main {
-    margin-top: 70px;
+    margin-top: 80px;
+}
+
+#home .jumbotron {
+	background-color: #fff;
+}
+
+#cleaning .legend {
+	text-align: center;
+}
+
+#cleaning img {
+	border: 2px solid #aaa;
+	border-radius: 5px;
+}
+
+#footer {
+	margin: 20px 0;
 }
